@@ -69,7 +69,6 @@
     label.textAlignment = NSTextAlignmentCenter;
     label.lineBreakMode = NSLineBreakByWordWrapping;
     label.numberOfLines = 1;
-    label.minimumFontSize = 12;
     label.adjustsFontSizeToFitWidth = YES;
     label.backgroundColor = [UIColor whiteColor];
     [self addSubview:label];
@@ -282,7 +281,6 @@
         titleLabel.textAlignment = NSTextAlignmentCenter;
         titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
         titleLabel.numberOfLines = 1;
-        titleLabel.minimumFontSize = 12;
         titleLabel.adjustsFontSizeToFitWidth = YES;
         [self.contentView addSubview:titleLabel];
         self.titleLabel = titleLabel;
